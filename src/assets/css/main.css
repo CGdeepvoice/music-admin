@@ -1,0 +1,23 @@
+/* 初始化样式，全部为0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 默认长宽是100% */
+html,
+body,
+#app,
+.wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* 字体 链接 */
+body{
+    font-family: "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+a{
+    text-decoration: none;
+}
