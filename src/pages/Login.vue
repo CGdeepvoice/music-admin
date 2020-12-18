@@ -50,6 +50,7 @@ export default {
       getLoginStatus(params)
         .then((res) => {
           if (res.code === 1) {
+            this.$router.push("/Info");
             this.notify("欢迎回来", "success");
           } else {
             this.notify("登录失败", "error");
